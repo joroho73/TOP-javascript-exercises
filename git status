@@ -1,0 +1,251 @@
+[33mcommit aae9ddaaa9a17e6511abf85cb7102848c7c2f58c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Sat Oct 21 16:28:02 2023 +0100
+
+    added solution to 07_tempConversion
+
+[33mcommit bc01a859fab3c7d5471ce228f8afe66c4ffddf2e[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Sat Oct 21 15:33:45 2023 +0100
+
+    added solution for 05_leapYears
+
+[33mcommit 7b29234cc40ea3f5b9bbb516b8cddf4a47f0a43a[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Sat Oct 21 08:09:38 2023 +0100
+
+    added solution for 05_sumAll
+
+[33mcommit 908836cbdfad3f6fb2116ac8516902921f43e237[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Fri Oct 20 16:51:22 2023 +0100
+
+    added solution to 04_removeFromArray
+
+[33mcommit d62894767cbb9b8dc717f749eeadfae4f7a716ee[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Fri Oct 20 15:55:47 2023 +0100
+
+    completed 03_reverseString
+
+[33mcommit e2aaab11019698fe2ec8b176fc627d60b7980aa8[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Fri Oct 20 15:19:48 2023 +0100
+
+    updated repeatString.spec.js
+
+[33mcommit 2d2f66f0d987015826171bb5cdaa680ec5c7cb84[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Fri Oct 20 10:40:06 2023 +0100
+
+    added repeatString
+
+[33mcommit e54ce5157b900fdd445de2b199975e2992586098[m
+Author: joroho73 <joroho73@gmail.com>
+Date:   Fri Oct 20 09:22:56 2023 +0100
+
+    Updated 01_helloWorld to pass test
+
+[33mcommit 157972d135aeba75ed7730b1aafb82907988f8e5[m
+Merge: 406b166 b469739
+Author: Austin Sullivan <a.m.sullivan.github@gmail.com>
+Date:   Sun Sep 24 11:34:04 2023 -0400
+
+    Merge pull request #379 from TheOdinProject/dependabot/npm_and_yarn/generator-exercise/semver-and-nsp-5.7.2
+    
+    Bump semver and nsp in /generator-exercise
+
+[33mcommit b469739659eed9bf849e47d1557747a2f8b46b30[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sun Sep 24 15:28:31 2023 +0000
+
+    Bump semver and nsp in /generator-exercise
+    
+    Bumps [semver](https://github.com/npm/node-semver) to 5.7.2 and updates ancestor dependency [nsp](https://github.com/nodesecurity/nsp). These dependencies need to be updated together.
+    
+    
+    Updates `semver` from 5.4.1 to 5.7.2
+    - [Release notes](https://github.com/npm/node-semver/releases)
+    - [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+    - [Commits](https://github.com/npm/node-semver/compare/v5.4.1...v5.7.2)
+    
+    Updates `nsp` from 2.7.0 to 3.2.1
+    - [Commits](https://github.com/nodesecurity/nsp/compare/v2.7.0...v3.2.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: semver
+      dependency-type: indirect
+    - dependency-name: nsp
+      dependency-type: direct:development
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 406b1667aa9422f9546f432c97decee7694191b7[m
+Merge: 85a9d56 bb78d16
+Author: Austin Sullivan <a.m.sullivan.github@gmail.com>
+Date:   Sun Sep 24 11:17:05 2023 -0400
+
+    Merge pull request #392 from fabulousgk/fabulousgk/issue250
+    
+    Javascript exercises - Update package.json and package-lock to latest module versions
+
+[33mcommit bb78d163fcb663f2f774d4818043e996a9407fbc[m
+Author: Brian Lister <brian@fabulousgeek.me>
+Date:   Thu Aug 24 21:35:07 2023 -0500
+
+    Add note about packages out of date
+    
+    Related to: NPM Vulnerabilities Warning #250
+
+[33mcommit 59d27bf89fbf40e1cc64db64d9542ab9556cd5f4[m
+Author: Brian Lister <brian@fabulousgeek.me>
+Date:   Thu Aug 24 21:28:42 2023 -0500
+
+    Update NPM packages to latest versions
+    
+    Related to #250
+
+[33mcommit 85a9d56fde5685534aa051e48b2c3ccfbdcf4aed[m
+Merge: 12f8ffc 7037c2c
+Author: Cody Loyd <codyloyd@gmail.com>
+Date:   Wed Aug 23 17:25:26 2023 -0500
+
+    Merge pull request #391 from TheOdinProject/revert-389-main
+    
+    Revert "generator-exercise: Update name"
+
+[33mcommit 7037c2c37c03fe04639e0ef326bf1df2f0189483[m
+Author: Carlos Diaz <cdiaz@amplify.com>
+Date:   Wed Aug 23 12:54:07 2023 -0700
+
+    Revert "generator-exercise: Update name"
+
+[33mcommit 12f8ffc7e2617c177c4cd11d20d817ed5e128074[m
+Merge: dd9a830 dd7078e
+Author: Carlos Diaz <bycdiaz@protonmail.com>
+Date:   Wed Aug 23 12:27:36 2023 -0700
+
+    Merge pull request #389 from the-hdr/main
+    
+    generator-exercise: Update name
+
+[33mcommit dd7078e1be48bae816a4ba9581e50271958fcf91[m
+Author: Mohd Abbas Haidar <the-hdr@users.noreply.github.com>
+Date:   Sun Aug 20 23:49:29 2023 +0530
+
+    Change name
+    
+    Changed name of directory generator-exercise to exercise-generator so that students don't confuse it for an exercise
+
+[33mcommit dd9a83068dd9312639c1ea99c3717b7a9a5cd4b2[m
+Merge: cdba6da 43a8b16
+Author: Manon <81025586+ManonLef@users.noreply.github.com>
+Date:   Tue Aug 1 14:27:55 2023 +0200
+
+    Merge pull request #383 from RushilJalal/fix_Fibonacci_README
+    
+    10_fibonacci: Update README.md
+
+[33mcommit 43a8b165b455ad5970ccb917334fbd9fc3e46c31[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Tue Aug 1 13:13:38 2023 +0530
+
+    Update 10_fibonacci/README.md
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+
+[33mcommit 6d5f678ffc435fb4659571ae1024145706c79031[m
+Merge: 631d249 cdba6da
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Sun Jul 30 10:42:45 2023 +0530
+
+    Merge branch 'TheOdinProject:main' into fix_Fibonacci_README
+
+[33mcommit cdba6da97bef9b86de884033267871d18faa93c2[m
+Merge: 191a43a f5f6efa
+Author: Eric Olkowski <70952936+thatblindgeye@users.noreply.github.com>
+Date:   Sat Jul 29 17:38:39 2023 -0400
+
+    Merge pull request #368 from cats256/patch-1
+    
+    Update sumAll-solution.js swap algorithm to standard method
+
+[33mcommit f5f6efae9bf53a57db07544b8068b9c8a02d1955[m
+Author: Will <59489624+cats256@users.noreply.github.com>
+Date:   Sat Jul 29 15:40:07 2023 -0500
+
+    Update sumAll-solution.js
+
+[33mcommit 5513be576ae7ce9ab489238093dd26e87adb5575[m
+Author: Will <59489624+cats256@users.noreply.github.com>
+Date:   Sat Jul 29 15:39:33 2023 -0500
+
+    Update sumAll-solution.js
+
+[33mcommit 631d24936b5b2e779f5b7d4f6d1a3210087b2397[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Fri Jul 28 19:49:32 2023 +0530
+
+    Update README.md
+
+[33mcommit c9ad976fcb9f35bb21806da97aa29404de27e757[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Fri Jul 28 19:32:21 2023 +0530
+
+    Update README.md
+
+[33mcommit 191a43a1928999deeb9a6a815ca3bf324a74b9fd[m
+Merge: 2ca0716 197a716
+Author: 01zulfi <85733202+01zulfi@users.noreply.github.com>
+Date:   Thu Jul 27 18:11:47 2023 +0500
+
+    Merge pull request #340 from RyanMcEntire/getting_older_test_wording
+    
+    12_findTheOldest: Clarify test descriptions
+
+[33mcommit 2ca07161fd7980d868355b28d953e2782963c28d[m
+Merge: 9599e2a c77daf3
+Author: Eric Olkowski <70952936+thatblindgeye@users.noreply.github.com>
+Date:   Tue Jul 25 07:00:10 2023 -0400
+
+    Merge pull request #382 from RushilJalal/fix_Fibonacci_README
+    
+    10_fibonacci: Update README.md
+
+[33mcommit c77daf3fa96cabe314586901bb9c50aa3200ff66[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Mon Jul 24 23:37:21 2023 +0530
+
+    Fix README.md Fibonacci series example
+
+[33mcommit 9599e2ade385ce1b498565015d1965b749cdcd2f[m
+Merge: e381086 44e39f0
+Author: Eric Olkowski <70952936+thatblindgeye@users.noreply.github.com>
+Date:   Thu Jul 20 18:28:53 2023 -0400
+
+    Merge pull request #369 from cats256/cats256-branch
+    
+    Reformat test parameters for consistency
+
+[33mcommit 44e39f0412e4ad24001340e8da1848b0c18a66d5[m
+Author: Will <59489624+cats256@users.noreply.github.com>
+Date:   Sun Jul 16 16:06:25 2023 -0500
+
+    Update calculator-solution.js
+
+[33mcommit 1dae9df3ceb9be9dc36fc25da6e449b910893572[m
+Author: Will <59489624+cats256@users.noreply.github.com>
+Date:   Sun Jul 16 16:02:28 2023 -0500
+
+    Update calculator-solution.spec.js
+
+[33mcommit f855eb51b25eaf043f903a66b90e0f7c1a261592[m
+Author: Will <59489624+cats256@users.noreply.github.com>
+Date:   Sun Jul 16 16:02:03 2023 -0500
+
+    Update calculator-solution.spec.js
+
+[33mcommit e10ee035ad5ab313802ffd262642446bbd49bae1[m
+Author: Will <59489624+cats256@users.noreply.github.com
