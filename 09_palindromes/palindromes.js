@@ -1,7 +1,7 @@
 const palindromes = function (txt) {
     console.log(txt);
-    let pal = txt.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
-    pal = pal.replaceAll(" ","").toLowerCase();
+    let pal = txt.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replaceAll(" ","").toLowerCase();
+
     console.log(pal);
     const arrForward = Array.from(pal);
     console.log(arrForward);
@@ -18,6 +18,10 @@ const palindromes = function (txt) {
         console.log('false');
         return false;
     }
+
+    // //this is the TOP solution
+    // const processedString = string.toLowerCase().replace(/[^a-z0-9]/g, "");
+    // return processedString.split("").reverse().join("") == processedString;
 
 };
 //palindromes('Race car!');

@@ -1,13 +1,14 @@
 const getTheTitles = function(books) {
-    //console.log(typeof(books));
-    //console.log(Object.values(books)); 
     const titles = [];
-    for(book of books){
-        //console.log(book.titles);
-        titles.push(book.title);
-    }
-    console.log(titles);
-    return titles;
+    // for(book of books){
+    //     titles.push(book.title);
+    // }
+    // return titles;
+
+    // the given solution used the array.map() built in function
+    // along with the object reference
+
+    return books.map((book) => book.title);
 };
 
 const books = [

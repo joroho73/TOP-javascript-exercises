@@ -1,10 +1,9 @@
 const fibonacci = function(num) {
-    num = parseInt(num);
     if(num < 0) return "OOPS";
 
-    let fsum;
     let f1 = 1;
     let f2 = 0;
+    let fsum;
 
     for(let i = 0; i < num; i++){
         fsum = f1 + f2;
