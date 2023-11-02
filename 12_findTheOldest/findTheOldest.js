@@ -11,7 +11,6 @@ function calculateAge(yearOfBirth, yearOfDeath){
 }
 
 const findTheOldest = function(people) {
-
     for (person of people){
         const year = new Date().getFullYear()
         if (person.yearOfDeath == undefined) person.yearOfDeath = year;
@@ -21,13 +20,6 @@ const findTheOldest = function(people) {
 
     people.sort(compareAge);
 
-    // for (person of people){
-    //     for(const [key, value] of Object.entries(person)){
-    //         console.log(`${key}: ${value}`)
-    //         //console.log(typeof(person.age));
-        
-    //     }
-    // }
     console.log(people[0]);
     return people[0];
 };

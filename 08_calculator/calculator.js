@@ -1,10 +1,10 @@
 const add = function(p1,p2) {
-  return parseInt(p1) + parseInt(p2);
+  return p1 + p2;
 	
 };
 
 const subtract = function(p1,p2) {
-	return parseInt(p1) - parseInt(p2);
+	return p1 - p2;
 };
 
 const sum = function(arr) {
@@ -16,8 +16,10 @@ const sum = function(arr) {
   // return total;
 
   // this is the same calculation using .reduce!!
-  return arr.reduce((total, current) => total + current);
-
+let total = arr.reduce((total, currentValue) => {
+    return total + currentValue
+  },0);
+return total;
 };
 
 const multiply = function(arr) {
